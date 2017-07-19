@@ -1,17 +1,20 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
+  "name": "Charmi-server",
+  "version": "0.0.1",
+  "description": "Charmi server",
   "engines": {
     "node": "6.11.1"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "ejs": "2.5.6",
-    "express": "4.15.2"
+    "express": "4.15.3",
+    "massive": "^3.0.0"
   },
   "repository": {
     "type": "git",
