@@ -5,7 +5,7 @@ const express = require('express')
   , matchesCtrl = require('./server/matchesCtrl')
   , conversationCtrl = require('./server/conversationCtrl')
   , profilesCtrl = require('./server/profilesCtrl')
-  , config = require('./config')
+  // , config = require('./config')
   , port = 3000
   , app = express();
 
